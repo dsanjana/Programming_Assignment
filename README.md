@@ -1,4 +1,7 @@
 # Programming_Assignment
+Rest api
+
+http://localhost:8080/pickAndDrop
 
 Rest api request
 
