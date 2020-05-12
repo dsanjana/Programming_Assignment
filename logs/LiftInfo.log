@@ -1,0 +1,140 @@
+2020-05-12 12:51:42,563 INFO c.s.d.ProgrammingAssignmentApplication [main] Starting ProgrammingAssignmentApplication on DUMINDU with PID 62680 (C:\Users\ASUS\eclipse-workspace\Programming_Assignment\target\classes started by ASUS in C:\Users\ASUS\eclipse-workspace\Programming_Assignment)
+2020-05-12 12:51:42,571 DEBUG c.s.d.ProgrammingAssignmentApplication [main] Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2020-05-12 12:51:42,571 INFO c.s.d.ProgrammingAssignmentApplication [main] No active profile set, falling back to default profiles: default
+2020-05-12 12:51:43,657 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-12 12:51:43,658 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2020-05-12 12:51:43,663 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-05-12 12:51:43,730 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2020-05-12 12:51:43,730 INFO o.s.w.c.ContextLoader [main] Root WebApplicationContext: initialization completed in 1115 ms
+2020-05-12 12:51:43,876 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-12 12:51:44,027 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-05-12 12:51:44,055 INFO c.s.d.ProgrammingAssignmentApplication [main] Started ProgrammingAssignmentApplication in 1.914 seconds (JVM running for 3.174)
+2020-05-12 12:52:42,350 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-12 12:52:42,350 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-05-12 12:52:42,355 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2020-05-12 12:52:42,488 INFO c.s.d.s.Lift [Thread-4] {
+  "liftId" : 1,
+  "state" : "IDLE",
+  "direction" : "NAN",
+  "person" : 0,
+  "floor" : 1
+}
+2020-05-12 12:52:42,488 INFO c.s.d.s.Lift [Thread-4] {
+  "liftId" : 1,
+  "state" : "TO_PICKUP",
+  "direction" : "UP",
+  "person" : 0,
+  "floor" : 1
+}
+2020-05-12 12:52:54,490 INFO c.s.d.s.Lift [Thread-4] {
+  "liftId" : 1,
+  "state" : "PICKUP",
+  "direction" : "NAN",
+  "person" : 1,
+  "floor" : 5
+}
+2020-05-12 12:52:58,491 INFO c.s.d.s.Lift [Thread-4] {
+  "liftId" : 1,
+  "state" : "TO_DROPOFF",
+  "direction" : "UP",
+  "person" : 1,
+  "floor" : 5
+}
+2020-05-12 12:53:10,491 INFO c.s.d.s.Lift [Thread-4] {
+  "liftId" : 1,
+  "state" : "DROPOFF",
+  "direction" : "NAN",
+  "person" : 1,
+  "floor" : 9
+}
+2020-05-12 12:53:14,492 INFO c.s.d.s.Lift [Thread-4] {
+  "liftId" : 1,
+  "state" : "IDLE",
+  "direction" : "NAN",
+  "person" : 0,
+  "floor" : 9
+}
+2020-05-12 12:53:57,355 INFO c.s.d.s.Lift [Thread-5] {
+  "liftId" : 1,
+  "state" : "IDLE",
+  "direction" : "NAN",
+  "person" : 0,
+  "floor" : 1
+}
+2020-05-12 12:53:57,356 INFO c.s.d.s.Lift [Thread-5] {
+  "liftId" : 1,
+  "state" : "TO_PICKUP",
+  "direction" : "UP",
+  "person" : 0,
+  "floor" : 1
+}
+2020-05-12 12:54:00,357 INFO c.s.d.s.Lift [Thread-5] {
+  "liftId" : 1,
+  "state" : "PICKUP",
+  "direction" : "NAN",
+  "person" : 1,
+  "floor" : 2
+}
+2020-05-12 12:54:03,178 INFO c.s.d.s.Lift [Thread-6] {
+  "liftId" : 2,
+  "state" : "IDLE",
+  "direction" : "NAN",
+  "person" : 0,
+  "floor" : 0
+}
+2020-05-12 12:54:03,178 INFO c.s.d.s.Lift [Thread-6] {
+  "liftId" : 2,
+  "state" : "IDLE",
+  "direction" : "NAN",
+  "person" : 0,
+  "floor" : 0
+}
+2020-05-12 12:54:04,358 INFO c.s.d.s.Lift [Thread-5] {
+  "liftId" : 1,
+  "state" : "TO_DROPOFF",
+  "direction" : "UP",
+  "person" : 1,
+  "floor" : 2
+}
+2020-05-12 12:54:15,179 INFO c.s.d.s.Lift [Thread-6] {
+  "liftId" : 2,
+  "state" : "PICKUP",
+  "direction" : "NAN",
+  "person" : 1,
+  "floor" : 5
+}
+2020-05-12 12:54:19,180 INFO c.s.d.s.Lift [Thread-6] {
+  "liftId" : 2,
+  "state" : "TO_DROPOFF",
+  "direction" : "UP",
+  "person" : 1,
+  "floor" : 5
+}
+2020-05-12 12:54:19,359 INFO c.s.d.s.Lift [Thread-5] {
+  "liftId" : 1,
+  "state" : "DROPOFF",
+  "direction" : "NAN",
+  "person" : 1,
+  "floor" : 7
+}
+2020-05-12 12:54:23,359 INFO c.s.d.s.Lift [Thread-5] {
+  "liftId" : 1,
+  "state" : "IDLE",
+  "direction" : "NAN",
+  "person" : 0,
+  "floor" : 7
+}
+2020-05-12 12:54:25,181 INFO c.s.d.s.Lift [Thread-6] {
+  "liftId" : 2,
+  "state" : "DROPOFF",
+  "direction" : "NAN",
+  "person" : 1,
+  "floor" : 0
+}
+2020-05-12 12:54:29,181 INFO c.s.d.s.Lift [Thread-6] {
+  "liftId" : 2,
+  "state" : "IDLE",
+  "direction" : "NAN",
+  "person" : 0,
+  "floor" : 0
+}
